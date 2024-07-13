@@ -1,0 +1,13 @@
+<div class="container">
+  
+    <app-add-wish-form (addWish)="items.push($event)" [wishes]="items"></app-add-wish-form>
+    <div class="row mt-3">
+      <app-wish-filter [(filter)]="filter"></app-wish-filter>
+    </div>
+    <div class="row mt-3">
+      <div class="col-sm-4">
+        <app-wish-list [wishes]="items.filter(filter)"></app-wish-list>
+      </div>
+    </div>
+    <button type="button" class="btn" (click)="SaveChanges()">save changes</button>
+  </div>
