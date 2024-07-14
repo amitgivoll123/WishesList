@@ -1,0 +1,7 @@
+[
+  [
+    {"wishText": "million dollars", "isComplete": false},
+    {"wishText": "Drink coffee", "isComplete": true},
+    {"wishText": "selfcutting grass", "isComplete": false}
+  ]
+]
